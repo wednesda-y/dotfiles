@@ -21,7 +21,6 @@ call plug#end()
 
 "Use colourscheme
 syntax on
-colorscheme wal
 
 "Use relative line numbers
 :set relativenumber
