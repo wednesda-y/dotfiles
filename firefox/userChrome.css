@@ -9,7 +9,7 @@ html#main-window {
 	--tab-font-weight: 700;
 	--tab-height: 32px;
 	--tabs-container-height: 100px;
-	--urlbar-container-margin: 5px;
+	--urlbar-container-margin: 0px;
 	--urlbar-list-width: 60%;
 	--urlbar-text-font: "JetBrains Mono";
 	--urlbar-text-size: 10pt;
@@ -104,8 +104,8 @@ html#main-window {
 
 /* Text that says: This time, search with: */
 #urlbar-one-offs-header-label {
-	font-family: "Cantarell", sans-serif !important;
-	font-size: 14pt !important;
+	font-family: "JetBrains Mono" !important;
+	font-size: 10pt !important;
 	font-weight: 700 !important;
 }
 
