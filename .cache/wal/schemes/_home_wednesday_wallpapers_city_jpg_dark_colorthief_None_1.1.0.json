@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/wednesday/wallpapers/city.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#02070c",
+        "foreground": "#9ea7b1",
+        "cursor": "#9ea7b1"
+    },
+    "colors": {
+        "color0": "#02070c",
+        "color1": "#5c4262",
+        "color2": "#684948",
+        "color3": "#356192",
+        "color4": "#716c81",
+        "color5": "#896874",
+        "color6": "#b38478",
+        "color7": "#9ea7b1",
+        "color8": "#3e4f63",
+        "color9": "#5c4262",
+        "color10": "#684948",
+        "color11": "#356192",
+        "color12": "#716c81",
+        "color13": "#896874",
+        "color14": "#b38478",
+        "color15": "#9ea7b1"
+    }
+}

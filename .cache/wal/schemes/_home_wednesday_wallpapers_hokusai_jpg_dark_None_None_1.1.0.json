@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/wednesday/wallpapers/hokusai.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12130e",
+        "foreground": "#e2e4e3",
+        "cursor": "#e2e4e3"
+    },
+    "colors": {
+        "color0": "#12130e",
+        "color1": "#698FA7",
+        "color2": "#76AFCE",
+        "color3": "#A5A298",
+        "color4": "#DCC7A5",
+        "color5": "#EED0A9",
+        "color6": "#A2C0CC",
+        "color7": "#e2e4e3",
+        "color8": "#9e9f9e",
+        "color9": "#698FA7",
+        "color10": "#76AFCE",
+        "color11": "#A5A298",
+        "color12": "#DCC7A5",
+        "color13": "#EED0A9",
+        "color14": "#A2C0CC",
+        "color15": "#e2e4e3"
+    }
+}
