@@ -15,7 +15,7 @@
 ## *letterSpace: 0
 
 ## Set fonts in "$HOME/.Xresources.env"
-URxvt.font: xft:Roboto Mono:pixelsize=14:antialias=true
+URxvt.font: xft:JetBrains Mono:style=Regular:pixelsize=15:antialias=true
 *letterSpace: 0
 ## rxvt-unicode configuration
 URxvt.termName: rxvt-unicode
@@ -37,6 +37,13 @@ URxvt.matcher.button: 1
 URxvt.iso14755: False
 keysim.Shift-Up: command:\033]720;1\007
 keysim.Shirt-Down: command:\033]721;1\007
+
+! Transparency
+URxvt*inheritPixmap: true
+URxvt*transparent: true
+! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
+URxvt*shading:  20
+
 
 ## Other Xorg configuration
 Xcursor.theme: human
