@@ -19,6 +19,11 @@ super + {s,f}
 
 super + {grave,Tab}
 	bspc {node,desktop} -f last
+alt + Tab
+    bspc node -f next
+
+alt + shift + Tab
+    bspc node -f prev
 
 super + apostrophe
 	bspc node -s last
