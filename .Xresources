@@ -1,0 +1,108 @@
+## Some of my favorite font setups...
+## *font: xft:Monaco for Powerline-9
+## *faceName: xft:Monaco for Powerline-9
+## *boldFont: xft:Monaco for Powerline-9
+## *letterSpace: -1
+
+## *font: xft:artwiz lemon-8
+## *faceName: xft:artwiz lemon-8
+## *boldFont: xft:artwiz lemon-8
+## *letterSpace: 0
+
+## *font: xft:xos4 Terminuss Powerline-8
+## *faceName: xft:xos4 Terminuss Powerline-8
+## *boldFont: xft:xos4 Terminuss Powerline-8
+## *letterSpace: 0
+
+## Set fonts in "$HOME/.Xresources.env"
+URxvt.font: xft:Roboto Mono:pixelsize=14:antialias=true
+*letterSpace: 0
+## rxvt-unicode configuration
+URxvt.termName: rxvt-unicode
+URxvt.scrollBar: false
+URxvt.cursorUnderline: true
+URxvt.cursorBlink: true
+URxvt.intensityStyles: true
+URxvt.utf8: 1
+URxvt.scaleHeight: 1
+URxvt.depth: 32
+URxvt.internalBorder: 24
+URxvt.perl-ext-common: default,matcher,resize-font
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+!URxvt.depth: 0
+URxvt.iso14755: False
+keysim.Shift-Up: command:\033]720;1\007
+keysim.Shirt-Down: command:\033]721;1\007
+
+## Other Xorg configuration
+Xcursor.theme: human
+
+## DPI config
+dpi: 92
+.dpi: 92
+*dpi: 92
+Xft.dpi: 92
+*autohint: 0
+*lcdfilter: lcddefault
+*hintstyle: hintfull
+*hinting: 1
+*antialias: 1
+*rgba: rgb
+
+!   ! special
+!   *.foreground:   #f8f8f2
+!   *.background:   #111111
+!   *.cursorColor:  #f8f8f2
+!  *.colorr0:       #262626
+!   *.color8:       #262626
+!   *.color1:       #CF4134
+!   *.color9:       #CF4134
+!   *.color2:       #79E513
+!   *.color10:      #79E513
+!   *.color3:       #EDF630
+!   *.color11:      #EDF630
+!   *.color4:       #49BBFB
+!   *.color12:      #49BBFB
+!   *.color7:       #C7C7C7
+!   *.color15:      #C7C7C7
+
+! special
+*.foreground:   #d1d1d1
+*.background:   #221e2d
+*.cursorColor:  #d1d1d1
+
+! black
+*.color0:       #272822
+*.color8:       #75715e
+
+! red
+*.color1:       #f92672
+*.color9:       #f92672
+
+! green
+*.color2:       #a6e22e
+*.color10:      #a6e22e
+
+! yellow
+*.color3:       #f4bf75
+*.color11:      #f4bf75
+
+! blue
+*.color4:       #66d9ef
+*.color12:      #66d9ef
+
+! magenta
+*.color5:       #ae81ff
+*.color13:      #ae81ff
+
+! cyan
+*.color6:       #a1efe4
+*.color14:      #a1efe4
+
+! white
+*.color7:       #f8f8f2
+*.color15:      #f9f8f5

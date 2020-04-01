@@ -1,0 +1,94 @@
+#
+# bspwm hotkeys
+#
+
+super + alt + Escape
+	bspc quit
+
+super + w
+	bspc node -c
+
+super + t
+    bpsc node -t tiled
+
+super + b
+	bspc desktop -B
+
+super + {s,f}
+	bspc node -t {floating,fullscreen}
+
+super + {grave,Tab}
+	bspc {node,desktop} -f last
+
+super + apostrophe
+	bspc node -s last
+
+super + {o,i}
+	bspc control --record-history off; \
+	bspc node {older,newer} -f; \
+	bspc control --record-history on
+
+super + y
+	bspc node -w last.manual
+
+super + m
+	bspc node -s biggest
+
+super + {_,shift + }{h,j,k,l}
+	bspc node -{f,s} {west,south,north,east}
+
+super + {_,shift + }c
+	bspc node -f {next,prev}
+
+super + {comma,period}
+	bspc desktop -C {backward,forward}
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+super + ctrl + {_,shift + }space
+	bspc {node -p cancel,desktop -c}
+
+super + alt + {h,j,k,l}
+	bspc node -z {left -10 -10 , bottom -10 -10,top -10 -10,right -10 -10}
+
+super + ctrl + {1-9}
+	bspc node -r 0.{1-9}
+
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} ^{1-9,10}
+
+super + shift + {o,p}
+	bspc desktop -R {270,90}
+
+super + ctrl + alt + p
+	bspc node -t pseudo_tiled
+
+super + ctrl + {Left,Down,Up,Right}
+	bspc node --presel {west,south,north,east}
+
+super + ctrl + e
+	bspc node -k
+#
+# wm independent hotkeys
+#
+
+super + Return
+	urxvt
+
+super + q
+	firefox
+super + F12
+	amixer set Master 2%+
+
+super + F11
+	amixer set Master 2%-
+
+super + F10
+	amixer set Master 100%-
+
+super + space
+	dmenu_run
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd
