@@ -20,9 +20,6 @@ alias ls='ls --color=auto'
 alias l=ls
 alias c=cd
 
-# Custom bash prompt via kirsle.net/wizards/ps1.html
-export PS1="\[$(tput bold)\]\[$(tput setaf 4)\][\[$(tput setaf 5)\]\u\[$(tput setaf 4)\]@\[$(tput setaf 5)\]\h \[$(tput setaf 2)\]\W\[$(tput setaf 4)\]]\\$ \[$(tput sgr0)\]"
-
 # PyWal
 (cat ~/.cache/wal/sequences &)
 
@@ -36,6 +33,7 @@ alias startx='startx 2>/dev/null'
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # pure prompt
+fpath+=$HOME/build/pure
 PURE_PROMPT_SYMBOL=$
 PURE_PROMPT_VICMD_SYMBOL=\<
 autoload -U promptinit; promptinit
