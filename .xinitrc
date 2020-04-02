@@ -14,6 +14,10 @@ redshift &
 # Keybindings for volume
 xbindkeys &
 
+# Notification daemon
+dunst &
+export $(dbus-launch)
+
 # Load hotkey daemon
 sxhkd & 
 
