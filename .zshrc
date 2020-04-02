@@ -32,6 +32,9 @@ alias startx='startx 2>/dev/null'
 # Alias dotfile config command
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# Alias discord
+alias discord='snap run discord'
+
 # pure prompt
 fpath+=$HOME/build/pure
 PURE_PROMPT_SYMBOL=$
