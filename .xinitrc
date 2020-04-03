@@ -17,7 +17,6 @@ xbindkeys &
 # Notification daemon
 dunst -conf ~/.config/dunst/dunstrc &
 export $(dbus-launch)
-desktops.sh &
 
 # Load hotkey daemon
 sxhkd & 
