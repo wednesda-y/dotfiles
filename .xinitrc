@@ -15,7 +15,7 @@ redshift &
 xbindkeys &
 
 # Notification daemon
-dunst &
+dunst -conf ~/.config/dunst/dunstrc &
 export $(dbus-launch)
 
 # Load hotkey daemon
