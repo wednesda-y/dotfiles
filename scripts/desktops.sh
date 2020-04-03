@@ -20,7 +20,9 @@ do
     if read action monitor desktop <$pipe; then        
         if [[ "$action" == 'desktop_focus' ]]; then
             name=$(bspc query -D -d $desktop --names)
-            notify-send "Switched to Desktop $name"
+            notify-send \
+                --hint=string:x-dunst-stack-tag:bspwm \
+                "Switched to Desktop $name" 
         fi
     fi
 done
