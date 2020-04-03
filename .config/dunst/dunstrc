@@ -423,3 +423,6 @@
 #    set_stack_tag = "volume"
 #
 # vim: ft=cfg
+[bspwm-desktops]
+    summary = Switched*
+    timeout = 1
