@@ -27,10 +27,10 @@ syntax on
 :set rnu
 
 "Single compile key-mappings
-"nmap <F5> :SCCompile<cr>
+nmap <F5> :SCCompile<cr>
 nmap <F6> :SCCompileRun<cr>
 
-nmap <F5> :make<cr>
+"nmap <F5> :make<cr>
 
 "Use hard-mode in every buffer
 "let g:hardtime_default_on = 1
@@ -40,7 +40,9 @@ nmap <F5> :make<cr>
 :set shiftwidth=4
 :set expandtab
 
-setlocal spell
-set spelllang=en_gb
-inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+"setlocal spell
+"set spelllang=en_gb
+"inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
 
+"Vimtex
+let g:vimtex_view_general_viewer = 'zathura'
