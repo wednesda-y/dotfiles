@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Open pipe with bpswm
-pipe=$(bspc subscribe desktop -f)
+pipe=$(bspc subscribe desktop monitor -f)
 
 # Delete pipe file after exit
 trap "rm -f $pipe" EXIT
@@ -12,10 +12,8 @@ if [[ ! -p $pipe ]]; then
     exit 1
 fi
 
-
-
 # Read input from bpsc subscribe
-while true
+while true;
 do
     if read action monitor desktop <$pipe; then        
         if [[ "$action" == 'desktop_focus' ]]; then
@@ -23,6 +21,9 @@ do
             notify-send \
                 --hint=string:x-dunst-stack-tag:bspwm \
                 "Switched to Desktop $name" 
+
+        elif [[ "$action" == 'monitor_remove' ]]; then
+            exit 0
         fi
     fi
 done
