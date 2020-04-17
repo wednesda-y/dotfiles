@@ -23,3 +23,8 @@ sxhkd &
 
 # Run WM
 exec bspwm -c ~/.config/bspwm/bspwmrc_nogaps
+
+# For GNOME
+#export XDG_SESSION_TYPE=x11
+#export GDK_BACKEND=x11
+#exec gnome-session
