@@ -13,5 +13,8 @@ source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
 # Load hotkey daemon
 sxhkd & 
 
+# Fix java (IntelliJ IDEA) bug
+wmname LG3D
+
 # Run WM
 exec bspwm 
