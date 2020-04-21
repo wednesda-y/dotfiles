@@ -21,6 +21,9 @@ export $(dbus-launch)
 # Load hotkey daemon
 sxhkd & 
 
+# Fix java (IntelliJ IDEA) bug
+wmname LG3D
+
 # Run WM
 exec bspwm -c ~/.config/bspwm/bspwmrc_nogaps
 
