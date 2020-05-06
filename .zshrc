@@ -26,6 +26,10 @@ alias c=cd
 # Modify path to include ~/scripts
 export PATH=$HOME/scripts:$PATH
 
+# Modify path to include GOPATH
+export GOPATH=$HOME/build/go
+export PATH=$GOPATH/bin:$PATH
+
 # Alias startx to ignore error messages.
 alias startx='startx 2>/dev/null'
 
