@@ -17,7 +17,12 @@ let g:UltiSnipsJumpBackwardTrigger = '<s-tab>'
 
 "SingleCompile
 Plug 'xuhdev/SingleCompile'
+
+"Goyo a e s t h e t i c
+Plug 'junegunn/goyo.vim'
+
 call plug#end()
+
 
 "Use colourscheme
 syntax on
@@ -46,3 +51,6 @@ nmap <F6> :SCCompileRun<cr>
 
 "Vimtex
 let g:vimtex_view_general_viewer = 'zathura'
+
+"Start Goyo on launch
+autocmd VimEnter * Goyo 80%x90%
