@@ -5,8 +5,7 @@ xrdb -merge ~/.Xresources &
 xsetroot -cursor_name arrow &
 
 # Load colours
-wal -R &
-feh --bg-fill ~/Pictures/papes/desktop/6f6e5109cf0a9c4c.jpg &
+wal -R
 
 # redshift
 redshift &
@@ -24,8 +23,14 @@ sxhkd &
 # Fix java (IntelliJ IDEA) bug
 wmname LG3D
 
+# run Polybar
+~/.config/polybar/launch.sh
+
+# run compositor
+compton -c &
+
 # Run WM
-exec bspwm -c ~/.config/bspwm/bspwmrc_nogaps
+exec bspwm -c ~/.config/bspwm/bspwmrc
 
 # For GNOME
 #export XDG_SESSION_TYPE=x11

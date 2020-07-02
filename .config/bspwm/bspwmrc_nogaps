@@ -15,5 +15,5 @@ bspc config border_radius	     0
 bspc rule -a firefox border=off
 bspc rule -a '*:zathura' state=tiled
 
-# Track desktop changes thru notification daemon
-desktops.sh
+# On the fly desktop renaming
+$HOME/build/go/bin/btops

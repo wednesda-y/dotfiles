@@ -39,11 +39,10 @@ keysim.Shift-Up: command:\033]720;1\007
 keysim.Shirt-Down: command:\033]721;1\007
 
 ! Transparency
-URxvt*inheritPixmap: true
-URxvt*transparent: true
+!URxvt*inheritPixmap: true
+!URxvt*transparent: true
 ! URxvt*shading: 0 to 99 darkens, 101 to 200 lightens
-URxvt*shading:  20
-
+!URxvt*shading:  20
 
 ## Other Xorg configuration
 Xcursor.theme: human
