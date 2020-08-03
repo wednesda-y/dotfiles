@@ -7,6 +7,8 @@ xsetroot -cursor_name arrow &
 # Load colours
 wal -R
 
+# Set wallpaper
+feh --bg-fill ~/Pictures/papes/desktop/9d1d91b889e2ba31.jpg
 # redshift
 redshift &
 
@@ -30,7 +32,7 @@ wmname LG3D
 compton -c &
 
 # Run WM
-exec bspwm -c ~/.config/bspwm/bspwmrc
+exec bspwm -c ~/.config/bspwm/bspwmrc_nogaps
 
 # For GNOME
 #export XDG_SESSION_TYPE=x11
