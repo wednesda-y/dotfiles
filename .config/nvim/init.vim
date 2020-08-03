@@ -53,4 +53,4 @@ nmap <F6> :SCCompileRun<cr>
 let g:vimtex_view_general_viewer = 'zathura'
 
 "Start Goyo on launch
-autocmd VimEnter * Goyo 80%x90%
+autocmd VimEnter * Goyo
